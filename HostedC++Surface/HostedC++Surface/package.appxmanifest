@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="5f512011-f5f1-412a-be32-e877424eb70b" Version="1.0.0.0" Publisher="CN=kiseksen" />
+  <Identity Name="5f512011-f5f1-412a-be32-e877424eb70b" Version="1.0.0.0" Publisher="CN=toddland" />
   <mp:PhoneIdentity PhoneProductId="5f512011-f5f1-412a-be32-e877424eb70b" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>HostedC++Surface</DisplayName>

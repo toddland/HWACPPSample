@@ -53,11 +53,13 @@
     <MinimumVisualStudioVersion>$(VersionNumberMajor).$(VersionNumberMinor)</MinimumVisualStudioVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
     <PackageCertificateKeyFile>HostedC++Surface_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>F486767009AC5189789147F3D577F1C6D36CDDE3</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="HostedC++Surface_TemporaryKey.pfx" />
     <Content Include="msapp-error.js" />
     <Content Include="msapp-error.css" />
     <Content Include="msapp-error.html" />
@@ -68,7 +70,6 @@
     <Content Include="images\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="images\StoreLogo.png" />
     <Content Include="images\Wide310x150Logo.scale-200.png" />
-    <None Include="HostedC++Surface_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Numbers\Numbers.vcxproj" />
