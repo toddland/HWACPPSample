@@ -25,6 +25,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HWACPPSample", "..\", "{028
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "16728"
+		SlnRelativePath = "..\..\HWACPPSample\"
 	EndProjectSection
 EndProject
 Global
