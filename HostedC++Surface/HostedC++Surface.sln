@@ -7,6 +7,26 @@ Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "HostedC++Surface", "HostedC
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Numbers", "Numbers\Numbers.vcxproj", "{F675FDDF-FD3E-493B-9529-D6A9E5CDE0B8}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HWACPPSample", "..\", "{028DDC48-6F60-4181-9DB8-0442CE72D55E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_16728"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\HWACPPSample\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_16728\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_16728"
+		Release.AspNetCompiler.PhysicalPath = "..\..\HWACPPSample\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_16728\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "16728"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +77,22 @@ Global
 		{F675FDDF-FD3E-493B-9529-D6A9E5CDE0B8}.Release|x64.Build.0 = Release|x64
 		{F675FDDF-FD3E-493B-9529-D6A9E5CDE0B8}.Release|x86.ActiveCfg = Release|Win32
 		{F675FDDF-FD3E-493B-9529-D6A9E5CDE0B8}.Release|x86.Build.0 = Release|Win32
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Debug|ARM.Build.0 = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Debug|x64.Build.0 = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Debug|x86.Build.0 = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Release|ARM.ActiveCfg = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Release|ARM.Build.0 = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Release|x64.ActiveCfg = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Release|x64.Build.0 = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Release|x86.ActiveCfg = Debug|Any CPU
+		{028DDC48-6F60-4181-9DB8-0442CE72D55E}.Release|x86.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -45,6 +45,8 @@ function setNum(num) {
 function getRand(min, max) {
     var returnVal = cppClass.randomNumber(min, max);
     console.log("The max number is: " + max + ", the reandom number returned is: " + returnVal);
+    var returnValueItem = document.getElementById('returnValue');
+    returnValueItem.value = returnVal;
 }
 
 function getFactorial(num) {
