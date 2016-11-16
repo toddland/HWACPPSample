@@ -34,12 +34,16 @@ document.addEventListener("DOMContentLoaded", function() {
 function getNum() {
     var returnVal = cppClass.getNum();
     console.log("The number in NumClass is: " + returnVal);
+    var returnValueItem = document.getElementById('returnValue');
+    returnValueItem.value = returnVal;
     return returnVal;
 }
 
 function setNum(num) {
     cppClass.setNum(num);
     console.log("The number in NumClass is set to: " + num);
+    var returnValueItem = document.getElementById('returnValue');
+    returnValueItem.value = num;
 }
 
 function getRand(min, max) {
@@ -52,6 +56,8 @@ function getRand(min, max) {
 function getFactorial(num) {
     var returnVal = cppClass.factorial(num);
     console.log("The factorial of " + num + " is: " + returnVal);
+    var returnValueItem = document.getElementById('returnValue');
+    returnValueItem.value = returnVal;
 }
 
 //define methods for badge notifications
